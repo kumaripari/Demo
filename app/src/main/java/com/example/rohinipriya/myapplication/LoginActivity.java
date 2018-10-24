@@ -62,8 +62,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private View mProgressView;
     private View mLoginFormView;
 
+    
+       
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+         AppCenter.start(getApplication(), "6fd1a24f-02e2-4e91-9ff3-804b5db574d1",
+                Analytics.class, Crashes.class);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         // Set up the login form.
