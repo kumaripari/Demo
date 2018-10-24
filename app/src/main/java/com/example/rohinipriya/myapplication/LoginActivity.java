@@ -31,6 +31,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
